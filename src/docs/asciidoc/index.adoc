@@ -1,0 +1,25 @@
+ifndef::snippets[]
+:snippets: build/generated-snippets
+endif::[]
+= REST Docs 제목
+Andy Wilkinson;
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 2
+:sectlinks:
+
+
+[[Member-API]]
+== Member API
+
+[[Member-단일-조회]]
+=== Member 단일 조회
+
+include::{snippets}/home-controller-test/index/curl-request.adoc[]
+include::{snippets}/home-controller-test/index/http-request.adoc[]
+include::{snippets}/home-controller-test/index/http-response.adoc[]
+include::{snippets}/home-controller-test/index/httpie-request.adoc[]
+include::{snippets}/home-controller-test/index/request-body.adoc[]
+include::{snippets}/home-controller-test/index/response-body.adoc[]
